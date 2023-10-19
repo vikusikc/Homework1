@@ -1,0 +1,2 @@
+a = int(input("День"))
+print(a % 7)
