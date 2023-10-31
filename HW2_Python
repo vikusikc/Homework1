@@ -1,0 +1,56 @@
+#1
+a = int(input("1"))
+if a // 2:
+    print("TRUE")
+else:
+    print("FALKE")
+#2
+a = int(input("1"))
+b = int(input("2"))
+c = int(input("3"))
+if a or b or c > 0:
+    print("Рівно одне число позитивне")
+else:
+    print("Ні одне з чисел не є позитивним")
+#3
+a = int(input("1"))
+b = int(input("2"))
+if b-a==0:
+    print(b, a)
+else:
+    print(a, b)
+
+#4 я старалася але нічого не вийшло
+a = int(input("1"))
+b = int(input("2"))
+c = int(input("3"))
+if a> b  or c :
+    print(a ,"найбільше")
+elif b> a or c:
+    print(b ,"найбільше")
+else:
+    print(c ,'найбільше')
+
+if a< b  or c :
+    print(a ,'найменше')
+elif b< a or c:
+    print(b ,'найменше')
+else:
+    print(c ,'найменше')
+    
+if a< b  or a>b and a<c or a>c :
+    print(a,'середнє')
+elif b< a or b>a and b>c or b<c:
+    print(b ,'середнє')
+else:
+    print(c ,'середнє')
+
+#5
+year = int(input("Рік"))
+if year % 4 == 0:
+    if year % 100 == 0 and year % 400 !=0:
+        print("не високосний")
+    else:
+        print("високосний")
+else:
+    print("не високосний")
